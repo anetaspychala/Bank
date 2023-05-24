@@ -52,7 +52,7 @@ public class Bank {
                 break;
             }}
         if (searchClient == null) {
-            System.out.println("klienta nie znaleziono");
+            System.out.println("Client not found");
         }
     }
    public void withdraw(String accountNumber, double amount){
@@ -67,7 +67,7 @@ public class Bank {
                break;
            }}
        if (searchClient == null) {
-           System.out.println("klienta nie znaleziono");
+           System.out.println("Client not found");
        }
    }
     public void transfer(String fromAccountNumber, String toAccountNumber, double amount) {
